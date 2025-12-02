@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chowmine & Rahul Bhardwaj Fast Food</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #ff4500; color: white; text-align: center; padding: 20px; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; max-width: 1200px; margin: auto; }
+        .menu-category { margin-bottom: 30px; }
+        .menu-item { display: inline-block; width: 30%; margin: 10px; background: white; padding: 15px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); vertical-align: top; }
+        .menu-item h3 { margin-top: 0; color: #ff4500; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
+        @media (max-width: 768px) { .menu-item { width: 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Chowmine & Rahul Bhardwaj Fast Food</h1>
+        <p>Fresh, fast, and delicious Indian and Chinese meals!</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Chowmine & Rahul Bhardwaj Fast Food, owned by Rahul Bhardwaj, brings you the best of Indian and Chinese fast food, made with fresh ingredients and authentic flavors. Perfect for a quick bite! Located at Kishan Garh, Vasant Kunj, New Delhi 110070.</p>
+        <p>We also cater to events! Book us for marriages, birthday parties, and any other functions. Mention your preferences, and we'll customize the menu and service to make your occasion special.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        
+        <div class="menu-category">
+            <h3>Indian Fast Food</h3>
+            <div class="menu-item">
+                <h3>Samosa</h3>
+                <p>Crispy pastry filled with spiced potatoes and peas. ₹30</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pakora</h3>
+                <p>Deep-fried fritters made with onions, spinach, and chickpea flour. ₹40</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chivda</h3>
+                <p>Mixed nuts and spices snack. ₹50</p>
+            </div>
+            <div class="menu-item">
+                <h3>Vada Pav</h3>
+                <p>Spicy potato fritter in a bun with chutneys. ₹60</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pani Puri</h3>
+                <p>Hollow puris filled with spiced water, tamarind chutney, and potatoes. ₹80 (for 6 pieces)</p>
+            </div>
+            <div class="menu-item">
+                <h3>Bhelpuri</h3>
+                <p>Mixed puffed rice with vegetables and tangy chutneys. ₹70</p>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <h3>Chinese Fast Food</h3>
+            <div class="menu-item">
+                <h3>Spring Rolls</h3>
+                <p>Crispy rolls filled with vegetables and noodles. ₹50</p>
+            </div>
+            <div class="menu-item">
+                <h3>Vegetable Manchurian</h3>
+                <p>Fried vegetable balls in spicy Manchurian sauce. ₹90</p>
+            </div>
+            <div class="menu-item">
+                <h3>Hakka Noodles</h3>
+                <p>Stir-fried noodles with vegetables and soy sauce. ₹80</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chow Mein</h3>
+                <p>Stir-fried noodles with cabbage, carrots, and beans. ₹85</p>
+            </div>
+            <div class="menu-item">
+                <h3>Fried Rice</h3>
+                <p>Vegetable fried rice with eggs and spices. ₹75</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Lollipop</h3>
+                <p>Spicy fried chicken wings. ₹120</p>
+            </div>
+        </div>
+        
+        <!-- Add more items or categories as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: +918595569141</p>
+        <p>Email: [Your Email]</p>
+        <p>Order online: [Link to ordering service, e.g., Swiggy or Zomato]</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Chowmine & Rahul Bhardwaj Fast Food. All rights reserved.</p>
+        <p>Website created by Suraj Kumar and developed and managed by him.</p>
+    </footer>
+    <script>
+        // Simple JS for interactivity, e.g., alert on menu click
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.addEventListener('click', () => alert('Add to cart feature coming soon!'));
+        });
+    </script>
+</body>
+</html>
